@@ -7,8 +7,8 @@
   <title>Breslev Colombia</title>
   <link rel="shortcut icon" href="breslevlogo.png">
   
-  <link rel="stylesheet" href="./breslevstyles.css" />
-  <link rel="stylesheet" href="./breslevtablet.css" media="(min-width:930px)" />
+  <link rel="stylesheet" href="./breslevmobile.css" media="(max-width:699px" />
+  <link rel="stylesheet" href="./breslevtablet.css" media="(min-width:700px)" />
 
 
 </head>
@@ -16,31 +16,64 @@
 <header>
 
  <nav class ="menuInicial">
-    
+ 
+  <img src="icon_menu.svg" alt="menu" class="menu">
 
-    <ul >
+  <div class="navbar-left">
+
+    <ul   >
         <li>
-          <a href="/">Inicio</a>
+          <a href="/" style="text-decoration: none">Inicio</a>
         </li>
         <li>
-          <a href="/">Acerca de nosotros</a>
+          <a href="/" style="text-decoration: none">Acerca de nosotros</a>
         </li>
         <li>
-          <a href="/">contacto</a>
+          <a href="/" style="text-decoration: none">Contacto</a>
         </li>
         <li>
-          <a href="/">Tienda</a>
+          <a href="/" style="text-decoration: none">Tienda</a>
         </li>
         <li>
-          <a href="/">Articulos</a>
+          <a href="/" style="text-decoration: none">Articulos</a>
         </li>
         <li>
-          <a href="/">Videos</a>
+          <a href="/" style="text-decoration: none">Videos</a>
         </li>
         <li>
-          <a href="/">Donaciones</a>
+          <a href="/" style="text-decoration: none">Donaciones</a>
         </li>
       </ul>
+   </div>   
+
+   <div class="navbar-right">
+    <ul>
+      <li class="navbar-email">breslev@gmail.com</li>
+      <li class="navbar-shopping-cart">
+        <img src="icon_shopping_cart.svg" alt="shopping cart">
+    
+      </li>
+    </ul>
+  </div>
+
+  <div class="mobile-menu inactive">
+    <ul>
+      <li>
+        <a href="/">Nosotros</a>
+      </li>
+      <li>
+        <a href="/">Contacto</a>
+      </li>
+      <li>
+        <a href="/">Tienda</a>
+      </li>
+      <li>
+        <a href="/">Donaciones</a>
+      </li>
+      
+    </ul>
+
+
 
  </nav>
 
@@ -57,19 +90,13 @@
     
      </div>
      
-     <br>
-     <br>
-     
-     
-    
-     
      <div  class="container">
 
       
-         <div class="c1"><img src="ravnajman.png"  class= "najman" > </div>
-         <div class="c2"><img src="ravshapiro.png"  class= "shapiro" ></div>
-         <div class="c3"><img src="ravshimon.png"  class="shimon" ></div>
-         <div class="c4"><img src="rav arush.png"  class="arush" ></div>
+         <div class="c1" ><img src="ravnajman.png"  class= "najman" > <p class="ravnames"> Rav Najmam</p> </div>
+         <div class="c2"><img src="ravshapiro.png"  class= "shapiro" ><p class="ravnames"> Rav Shmuel Shapira</p></div>
+         <div class="c3"><img src="ravshimon.png"  class="shimon" > <p class="ravnames" >Rav SAryeh Rosenfeld</p></div>
+         <div class="c4"><img src="rav arush.png"  class="arush" ><p class="ravnames"> Rav Arush </p></div>
        
 
      </div>  

@@ -28,14 +28,18 @@ width: 90px;
    
    }
    
+   
+    
+
    .menuInicial li {
    
-      display:inline-block;
+      display: inline;
       font-size: 20px;
-      margin: 10px 0;
-      padding-left: 20px;
-      padding-right: 20px;
+      margin: 40px 0;
+      list-style: none;
       text-decoration: none;
+          
+
    }
 .container {
     border: 0,3 rem solid black;
