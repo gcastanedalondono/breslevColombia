@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+  }
+
+  .inactive {
+    display:none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 24px;
+    border-bottom: 1px solid black;
+  }
+
+ 
+
+  .navbar-left ul,
+  .navbar-right ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+
+  .navbar-left {
+    display: flex;
+  }
+
+  .navbar-left ul {
+    margin-left: 12px;
+  }
+  .navbar-left ul li a,
+  .navbar-right ul li a {
+    text-decoration: none;
+
+    
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+
+/*estilos en mobile*/
+
+  @media (max-width: 641px) {
+
+    .navbar-left {
+      display:none;
+    }
+    .breslevlogo img{
+ 
+        display:block;
+       margin-left: auto;
+       margin-right: auto;
+        height: 110px;
+        width: 110px;
+        margin-top: 5px;
+        left:-20px ;
+     }
+
+     .container {
+        border: 0,3 rem solid black;
+        
+        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        padding: 50px;
+        }
+    
+    
+    
+    .breslevlogo img{
+     
+       display:block;
+      margin-left: auto;
+      margin-right: auto;
+       height: 140px;
+       width: 140px;
+       margin-top: 5px;
+    }
+       
+    
+    
+    
+     .najman {
+       
+       height: 130px;
+       width: 130px;
+    
+     } 
+     
+     .shapiro {
+       
+       height: 130px;
+       width: 130px;
+    
+     } 
+    
+     .shimon {
+       
+        height: 130px;
+        width: 130px;
+    
+     } 
+    
+     .arush{
+    
+       height: 130px;
+       width: 130px;
+     }
+    
+     
+       .c1{
+         width:50%;
+         order:1;
+         text-align: center;
+       }
+     
+       .c2{
+         width:50%;
+         order:2;
+         text-align: center;
+       }
+     
+       .c3{
+         width: 50%;
+         order: 3;
+         text-align: center;
+       }
+     
+         .c4{
+           width: 50%;
+           order:4;
+           text-align: center;
+         }
+     
+
+  }
+
+/*estilos en Desktop*/
+
+  @media (min-width: 642px) {
+    .menu{
+        display:none;
+    }
+
+    .container {
+    
+   
+        margin: 0 auto;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        width: 90%;
+
+  }
+
+  .container .ravnames {
+    
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+ 
+  }
+
+  .c1 , .c2, .c3, .c4 {
+    height:270px;
+    width: 320px;
+    text-align: center;
+   }
+   
+   .najman {
+      
+       height: 250px;
+       width: 250px;
+   
+    } 
+   
+    .shapiro {
+      
+       height: 250px;
+       width: 250px;
+   
+    } 
+   
+   
+    .shimon {
+      
+       height: 250px;
+       width: 250px;
+    }
+    
+    .arush{
+   
+       height: 250px;
+       width: 250px;
+    }
+   
+    .breslevlogo img {
+    
+      
+     display:block;
+     margin-left: auto;
+     margin-right: auto;
+      height: 200px;
+      width: 200px;
+      margin-top: 7px;
+   }
