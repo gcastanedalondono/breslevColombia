@@ -3,6 +3,11 @@ body {
     font-family: 'Quicksand', sans-serif;
   }
 
+.logo {
+    width:120px;
+    height: 120px;
+}
+
   .inactive {
     display:none;
   }
@@ -55,11 +60,35 @@ body {
         display:block;
        margin-left: auto;
        margin-right: auto;
-        height: 110px;
-        width: 110px;
+        height: 115px;
+        width: 115px;
         margin-top: 5px;
         left:-20px ;
      }
+
+     .mobile-menu {
+        background-color: white;
+        position:absolute;
+        top: 60px;
+        padding: 8px;
+      }
+      .mobile-menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        /* margin-bottom: 24px; */
+      }
+      .mobile-menu ul {
+        padding: 0;
+        margin: 24px 0 0;
+        list-style: none;
+      }
+      .mobile-menu ul:nth-child(1) {
+        border-bottom: 1px solid red;
+      }
+      .mobile-menu ul li {
+        margin-bottom: 24px;
+      }
 
      .container {
         border: 0,3 rem solid black;
@@ -146,6 +175,11 @@ body {
   @media (min-width: 642px) {
     .menu{
         display:none;
+    }
+
+    .mobile-menu{
+
+        display: none;
     }
 
     .container {
