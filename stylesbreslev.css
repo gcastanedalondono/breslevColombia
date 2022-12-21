@@ -1,7 +1,14 @@
+header {
+ background-color: black;
+
+}
+
 body {
     margin: 0;
     font-family: 'Quicksand', sans-serif;
+  
   }
+
 
 .logo {
     width:120px;
@@ -19,7 +26,17 @@ body {
     border-bottom: 1px solid black;
   }
 
+ .fuente {
  
+  color: #ECC440;
+
+ }
+
+ .menu {
+   width: 60px;
+   height: 60px;
+
+ }
 
   .navbar-left ul,
   .navbar-right ul {
@@ -29,6 +46,7 @@ body {
     display: flex;
     align-items: center;
     height: 60px;
+    
   }
 
   .navbar-left {
@@ -47,6 +65,15 @@ body {
     border-radius: 8px;
   }
 
+  .navbar-email{
+    color: #ECC440;
+  }
+
+  .cart{
+
+    width: 40px;
+    height: 40px;
+  }
 
 /*estilos en mobile*/
 
