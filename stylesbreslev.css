@@ -77,198 +77,225 @@ body {
 
 /*estilos en mobile*/
 
-  @media (max-width: 641px) {
+@media (max-width: 641px) {
 
-    .navbar-left {
-      display:none;
-    }
-    .breslevlogo img{
- 
-        display:block;
-       margin-left: auto;
-       margin-right: auto;
-        height: 115px;
-        width: 115px;
-        margin-top: 5px;
-        left:-20px ;
-     }
-
-     .mobile-menu {
-        background-color: white;
-        position:absolute;
-        top: 60px;
-        padding: 8px;
-      }
-      .mobile-menu a {
-        text-decoration: none;
-        color: black;
-        font-weight: bold;
-        /* margin-bottom: 24px; */
-      }
-      .mobile-menu ul {
-        padding: 0;
-        margin: 24px 0 0;
-        list-style: none;
-      }
-      .mobile-menu ul:nth-child(1) {
-        border-bottom: 1px solid red;
-      }
-      .mobile-menu ul li {
-        margin-bottom: 24px;
-      }
-
-     .container {
-        border: 0,3 rem solid black;
-        
-        align-items: center;
-        display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        padding: 50px;
-        }
-    
-    
-    
-    .breslevlogo img{
-     
-       display:block;
-      margin-left: auto;
-      margin-right: auto;
-       height: 140px;
-       width: 140px;
-       margin-top: 5px;
-    }
-       
-    
-    
-    
-     .najman {
-       
-       height: 130px;
-       width: 130px;
-    
-     } 
-     
-     .shapiro {
-       
-       height: 130px;
-       width: 130px;
-    
-     } 
-    
-     .shimon {
-       
-        height: 130px;
-        width: 130px;
-    
-     } 
-    
-     .arush{
-    
-       height: 130px;
-       width: 130px;
-     }
-    
-     
-       .c1{
-         width:50%;
-         order:1;
-         text-align: center;
-       }
-     
-       .c2{
-         width:50%;
-         order:2;
-         text-align: center;
-       }
-     
-       .c3{
-         width: 50%;
-         order: 3;
-         text-align: center;
-       }
-     
-         .c4{
-           width: 50%;
-           order:4;
-           text-align: center;
-         }
-     
-
+  .navbar-left {
+    display:none;
   }
+  .breslevlogo img{
+
+      display:block;
+     margin-left: auto;
+     margin-right: auto;
+      height: 115px;
+      width: 115px;
+      margin-top: 5px;
+      left:-20px ;
+   }
+
+   .mobile-menu {
+      background-color: white;
+      position:absolute;
+      top: 60px;
+      padding: 8px;
+    }
+    .mobile-menu a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      /* margin-bottom: 24px; */
+    }
+    .mobile-menu ul {
+      padding: 0;
+      margin: 24px 0 0;
+      list-style: none;
+    }
+    .mobile-menu ul:nth-child(1) {
+      border-bottom: 1px solid red;
+    }
+    .mobile-menu ul li {
+      margin-bottom: 24px;
+    }
+
+   .container {
+      border: 0,3 rem solid black;
+      
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      position: relative;
+      padding: 50px;
+      }
+  
+  
+  
+  .breslevlogo img{
+   
+     display:block;
+    margin-left: auto;
+    margin-right: auto;
+     height: 140px;
+     width: 140px;
+     margin-top: 5px;
+  }
+     
+  
+  
+  
+   .najman {
+     
+     height: 130px;
+     width: 130px;
+  
+   } 
+   
+   .shapiro {
+     
+     height: 130px;
+     width: 130px;
+  
+   } 
+  
+   .shimon {
+     
+      height: 130px;
+      width: 130px;
+  
+   } 
+  
+   .arush{
+  
+     height: 130px;
+     width: 130px;
+   }
+  
+   
+     .c1{
+       width:50%;
+       order:1;
+       text-align: center;
+     }
+   
+     .c2{
+       width:50%;
+       order:2;
+       text-align: center;
+     }
+   
+     .c3{
+       width: 50%;
+       order: 3;
+       text-align: center;
+     }
+   
+       .c4{
+         width: 50%;
+         order:4;
+         text-align: center;
+       }
+   
+       .videodonacion {
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 350px;
+        width: 350px;
+        margin-top: 55px;
+        left:-20px ;}
+      
+      
+
+}
 
 /*estilos en Desktop*/
 
-  @media (min-width: 642px) {
-    .menu{
-        display:none;
-    }
-
-    .mobile-menu{
-
-        display: none;
-    }
-
-    .container {
-    
-   
-        margin: 0 auto;
-        padding: 50px;
-        display: flex;
-        justify-content: center;
-        width: 90%;
-
+@media (min-width: 642px) {
+  .menu{
+      display:none;
   }
 
-  .container .ravnames {
-    
-    margin-bottom: 10px;
-    text-align: center;
-    justify-content: center;
-    position: relative;
+  .mobile-menu{
+
+      display: none;
+  }
+
+  .container {
+  
  
-  }
+      margin: 0 auto;
+      padding: 50px;
+      display: flex;
+      justify-content: center;
+      width: 90%;
 
-  .c1 , .c2, .c3, .c4 {
-    height:270px;
-    width: 320px;
-    text-align: center;
-   }
-   
-   .najman {
-      
-       height: 250px;
-       width: 250px;
-   
-    } 
-   
-    .shapiro {
-      
-       height: 250px;
-       width: 250px;
-   
-    } 
-   
-   
-    .shimon {
-      
-       height: 250px;
-       width: 250px;
-    }
+}
+
+.container .ravnames {
+  
+  margin-bottom: 10px;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+
+}
+
+.c1 , .c2, .c3, .c4 {
+  height:270px;
+  width: 320px;
+  text-align: center;
+ }
+ 
+ .najman {
     
-    .arush{
-   
-       height: 250px;
-       width: 250px;
-    }
-   
-    .breslevlogo img {
+     height: 250px;
+     width: 250px;
+ 
+  } 
+ 
+  .shapiro {
     
-      
-     display:block;
-     margin-left: auto;
-     margin-right: auto;
-      height: 200px;
-      width: 200px;
-      margin-top: 7px;
-   }
+     height: 250px;
+     width: 250px;
+ 
+  } 
+ 
+ 
+  .shimon {
+    
+     height: 250px;
+     width: 250px;
+  }
+  
+  .arush{
+ 
+     height: 250px;
+     width: 250px;
+  }
+ 
+  .breslevlogo img {
+  
+    
+   display:block;
+   margin-left: auto;
+   margin-right: auto;
+    height: 200px;
+    width: 200px;
+    margin-top: 7px;
+ }
+
+ .videodonacion {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+  margin-top: 55px;
+  left:-20px ;}
+
+
+}
+
+
+
+ 
+    
