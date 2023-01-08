@@ -103,8 +103,8 @@ header {
     .mobile-menu {
        background-color: white;
        position:absolute;
-       top: 60px;
-       padding: 8px;
+       top: 61px;
+       padding: 12px;
      }
      .mobile-menu a {
        text-decoration: none;
@@ -114,14 +114,14 @@ header {
      }
      .mobile-menu ul {
        padding: 0;
-       margin: 24px 0 0;
+       margin: 12px 0 0;
        list-style: none;
      }
-     .mobile-menu ul:nth-child(1) {
-       border-bottom: 1px solid red;
+     /*.mobile-menu ul:nth-child(1) {
+       border-bottom: 1px solid black;*/
      }
      .mobile-menu ul li {
-       margin-bottom: 24px;
+       margin-bottom: 8px;
      }
  
     .container {
