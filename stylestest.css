@@ -103,8 +103,8 @@ header {
     .mobile-menu {
        background-color: white;
        position:absolute;
-       top: 61px;
-       padding: 12px;
+       top: 60px;
+       padding: 8px;
      }
      .mobile-menu a {
        text-decoration: none;
@@ -117,8 +117,8 @@ header {
        margin: 12px 0 0;
        list-style: none;
      }
-     /*.mobile-menu ul:nth-child(1) {
-       border-bottom: 1px solid black;*/
+     .mobile-menu ul:nth-child(1) {
+       border-bottom: 1px solid white;
      }
      .mobile-menu ul li {
        margin-bottom: 8px;
@@ -248,7 +248,7 @@ header {
         margin-bottom: -20px;
        }
  
-      
+ }
  
  /*estilos en Desktop*/
  
@@ -296,14 +296,14 @@ header {
   .najman {
      
       height: 250px;
-      width: 200px;
+      width: 250px;
   
    } 
   
    .shapiro {
      
       height: 250px;
-      width: 200px;
+      width: 250px;
   
    } 
   
@@ -311,13 +311,13 @@ header {
    .shimon {
      
       height: 250px;
-      width: 200px;
+      width: 250px;
    }
    
    .arush{
   
       height: 250px;
-      width: 200px;
+      width: 250px;
    }
   
    .breslevlogo img {
@@ -377,7 +377,7 @@ header {
 
    }
  
- 
+ }
  
  
  
