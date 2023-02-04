@@ -89,15 +89,25 @@ header {
    .navbar-left {
      display:none;
    }
+   .breslevlogo{
+    display:block;
+    margin-top: 40px;
+    justify-content: center;
+    
+    
+    
+
+   }
+
    .breslevlogo img{
  
        display:block;
       margin-left: auto;
       margin-right: auto;
-       height: 115px;
-       width: 115px;
-       margin-top: 5px;
-       left:-20px ;
+      height: 130px;
+      width: 130px; 
+       margin-top: 20px;
+       left: -20px ;
     }
  
     .mobile-menu {
