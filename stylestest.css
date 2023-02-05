@@ -91,23 +91,22 @@ header {
    }
    .breslevlogo{
     display:block;
-    margin-top: 40px;
+    margin-top: 30px;
     justify-content: center;
     
-    
-    
-
+   
    }
 
    .breslevlogo img{
  
-       display:block;
+      display:block;
       margin-left: auto;
       margin-right: auto;
-      height: 130px;
-      width: 130px; 
-       margin-top: 20px;
-       left: -20px ;
+      height: 150px;
+      width: 150px; 
+      margin-top: 20px;
+      
+    
     }
  
     .mobile-menu {
@@ -394,7 +393,16 @@ header {
 
    }
  
- }
+   .parrafo {
+
+    font-size: 1.1rem;
+    width:90%;
+    text-align: center;
+    padding: 1rem;
+    line-height: 1.4rem;
+    
+    }
+ 
  
  
  
